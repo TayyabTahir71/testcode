@@ -1,0 +1,14 @@
+.home-container {
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+}
+.dark-bg {
+ background: #090b0c !important;
+ color: white !important;
+}
+@media screen and (max-width: 768px) {
+ .home-container {
+  padding-bottom: 100px;
+ }
+}

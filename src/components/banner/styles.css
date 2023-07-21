@@ -1,0 +1,117 @@
+.banner-container {
+    min-height: 207px;
+    background: #fbfbfc;
+    border-radius: 20px;
+    margin-top: 18px;
+    position: relative;
+}
+
+.banner-container-dark {
+    background: #0d1013 !important;
+}
+
+.banner-heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #090b0c;
+    padding-top: 47px;
+}
+
+.banner-heading-dark {
+    color: #ffffff;
+}
+
+.banner-Subheading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #5d6974;
+    padding-top: 5px;
+}
+
+.banner-Subheading-dark {
+    color: #9aa5b0;
+}
+
+.banners-button-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    /* flex-wrap: wrap; */
+}
+
+.banners-button-grid-responsive {
+    display: flex;
+    margin-top: 38px;
+    overflow: auto;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.banners-button-grid-responsive::-webkit-scrollbar {
+    display: none;
+}
+
+.banner-Btn {
+    padding: 8px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #5d6974;
+    /* cursor: pointer; */
+}
+
+.banner-Btn-dark {
+    background: #090b0c;
+    color: #fff;
+}
+
+.banner-Btn-active {
+    background: #8077f6;
+    color: #fff;
+}
+
+.banner-container {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+    .banner-container {
+        background: #fbfbfc;
+        border-radius: 20px;
+        margin-top: 18px;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    .banner-Btn {
+        padding: 8px 19px;
+    }
+}
+
+.relative-position {
+    position: relative;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
